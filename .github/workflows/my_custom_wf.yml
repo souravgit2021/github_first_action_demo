@@ -1,0 +1,11 @@
+name: my_custom_workflow_self
+on: workflow_dispatch
+jobs:
+  second-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: print hellow
+         run: echo "Hellow Sourav"
+       - name: print os details
+         run: sh 'cat /etc/os-details'
+         
