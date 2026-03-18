@@ -7,5 +7,5 @@ jobs:
        - name: print hellow
          run: echo "Hellow Sourav"
        - name: print os details
-         run: sh 'cat /etc/os-details'
+         run: sh 'uptime;date'
          
